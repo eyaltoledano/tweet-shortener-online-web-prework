@@ -51,5 +51,4 @@ end
 def shortened_tweet_truncator(tweet)
   truncated_tweet = tweet[0..133]
   truncated_tweet << " (...)"
-  binding.pry
 end
