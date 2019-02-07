@@ -57,14 +57,3 @@ def shortened_tweet_truncator(tweet)
   end
   truncated_tweet
 end
-
-# def shortened_tweet_truncator(tweet)
-#   truncated_tweet = []
-#   if tweet.length > 140
-#     truncated_tweet = tweet[0..133]
-#     truncated_tweet << " (...)"
-#   elsif tweet.length <= 140
-#     truncated_tweet << tweet
-#   end
-#   truncated_tweet
-# end
