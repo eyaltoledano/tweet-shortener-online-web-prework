@@ -49,7 +49,7 @@ def selective_tweet_shortener(tweet)
 end
 
 def shortened_tweet_truncator(tweet)
-  truncated_tweet = tweet[0..135]
+  truncated_tweet = tweet[0..133]
   truncated_tweet << " (...)"
   binding.pry
 end
