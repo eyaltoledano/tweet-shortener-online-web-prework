@@ -54,4 +54,5 @@ def shortened_tweet_truncator(tweet)
     truncated_tweet << tweet[0..136]
     truncated_tweet << " (...)"
   end
+  truncated_tweet
 end
